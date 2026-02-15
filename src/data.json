@@ -65,6 +65,19 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
 },
 {
+    "category": "Traffic Signs",
+    "question": "What does a sign with a yellow background typically indicate?",
+    "options": [
+        "Tourist information",
+        "Temporary road works or diversion",
+        "A primary route"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow signs usually indicate temporary hazards, road works, or diversion routes.",
+    "reference": "Traffic Signs: Road Works",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
     "category": "Motorways",
     "question": "What is the national speed limit for cars on a motorway?",
     "options": [
@@ -183,10 +196,10 @@
 },
 {
     "category": "Stopping",
-    "question": "Is parking on the pavement legal?",
+    "question": "When can you park on a pavement?",
     "options": [
-        "Yes, always",
-        "No, unless signs permit it",
+        "Anytime in residential areas",
+        "Never, unless signs permit it",
         "Only on Sundays"
     ],
     "correctIndex": 1,
@@ -387,19 +400,6 @@
     "explanation": "The driver is responsible for ensuring that any passenger under 14 years old wears a seatbelt or child restraint.",
     "reference": "Highway Code: Rule 99",
     "link": "https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102"
-},
-{
-    "category": "Road Works",
-    "question": "What does a sign with a yellow background typically indicate?",
-    "options": [
-        "Tourist information",
-        "Temporary road works or diversion",
-        "A primary route"
-    ],
-    "correctIndex": 1,
-    "explanation": "Yellow signs usually indicate temporary hazards, road works, or diversion routes.",
-    "reference": "Traffic Signs: Road Works",
-    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
 },
 {
     "category": "Road Works",

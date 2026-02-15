@@ -80,7 +80,7 @@ const SpinningWheel = ({ onFinished }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[600px] w-full bg-slate-50 p-4">
+    <div className="flex flex-col items-center justify-center min-h-[600px] w-full p-4">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-slate-800 mb-2">Highway Code Quiz</h1>
         <p className="text-slate-600">Spin the wheel to select a category!</p>
@@ -158,7 +158,7 @@ const QuizView = ({ categoryData, onBack }) => {
   const isCorrect = selectedOption === correctIndex;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 p-4 animate-fade-in">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 animate-fade-in">
       <div className="max-w-2xl w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
         
         {/* Header */}
@@ -287,7 +287,7 @@ export default function App() {
   };
 
   return (
-    <div className="font-sans text-slate-900 bg-slate-100 min-h-screen">
+    <div className="font-sans text-slate-900 min-h-screen">
       {view === 'spinner' && (
         <SpinningWheel onFinished={handleSpinFinished} />
       )}
