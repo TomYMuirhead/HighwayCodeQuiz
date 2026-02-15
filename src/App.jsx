@@ -19,10 +19,12 @@ const colors = [
 // --- Wheel Component ---
 const SpinningWheel = ({ onFinished }) => {
   const [isSpinning, setIsSpinning] = useState(false);
-  const [rotation, setRotation] = useState(0);
+  // Initialize with a random rotation between 0 and 360 degrees
+  const [rotation, setRotation] = useState(() => Math.floor(Math.random() * 360));
   
-  // Extract categories from data
-  const segments = questionsData.map(q => q.category);
+  // 1. EXTRACT UNIQUE CATEGORIES
+  // We use a Set to get unique category names from the full question list
+  const segments = [...new Set(questionsData.map(q => q.category))];
   const segmentAngle = 360 / segments.length;
 
   // Build the conic-gradient string for the wheel background
@@ -62,7 +64,7 @@ const SpinningWheel = ({ onFinished }) => {
     if (rotationDiff < 0) rotationDiff += 360;
     
     // Add multiple spins for effect
-    const spins = 5 + Math.floor(Math.random() * 3);
+    const spins = 5 + Math.floor(Math.random() * 6); // 5 to 10 spins
     const newRotation = rotation + (spins * 360) + rotationDiff;
 
     setRotation(newRotation);
@@ -70,7 +72,10 @@ const SpinningWheel = ({ onFinished }) => {
     // 3. Show the winning question after spin completes
     setTimeout(() => {
       setIsSpinning(false);
-      onFinished(questionsData[winningIndex]);
+      const winningCategory = segments[winningIndex];
+      const availableQuestions = questionsData.filter(q => q.category === winningCategory);
+      const finalQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+      onFinished(finalQuestion);
     }, 4000); 
   };
 

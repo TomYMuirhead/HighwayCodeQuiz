@@ -13,6 +13,58 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
 },
 {
+    "category": "Traffic Signs",
+    "question": "What does a triangular sign with a red border indicate?",
+    "options": [
+        "Order",
+        "Warning",
+        "Direction"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triangular signs warn road users of potential hazards ahead.",
+    "reference": "Highway Code: Traffic Signs",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
+    "category": "Traffic Signs",
+    "question": "What does a blue circle sign indicate?",
+    "options": [
+        "A mandatory instruction",
+        "A warning",
+        "Tourist information"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blue circles give mandatory instructions, such as 'turn left' or 'keep left'.",
+    "reference": "Highway Code: Traffic Signs",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
+    "category": "Traffic Signs",
+    "question": "What shape is a 'Stop' sign?",
+    "options": [
+        "Circular",
+        "Triangular",
+        "Octagonal"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 'Stop' sign is octagonal (8-sided) to make it distinct from other signs.",
+    "reference": "Highway Code: Traffic Signs",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
+    "category": "Traffic Signs",
+    "question": "What does a sign with a brown background indicate?",
+    "options": [
+        "Tourist information",
+        "Motorway info",
+        "Primary route"
+    ],
+    "correctIndex": 0,
+    "explanation": "Brown signs indicate tourist attractions and facilities.",
+    "reference": "Traffic Signs: Information",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
     "category": "Motorways",
     "question": "What is the national speed limit for cars on a motorway?",
     "options": [
@@ -26,6 +78,45 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/motorways-253-to-273"
 },
 {
+    "category": "Motorways",
+    "question": "What colour are the reflective studs between a motorway and a slip road?",
+    "options": [
+        "Red",
+        "Amber",
+        "Green"
+    ],
+    "correctIndex": 2,
+    "explanation": "Green studs mark the boundary between the carriageway and slip roads (exit or entry).",
+    "reference": "Highway Code: Rule 132",
+    "link": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"
+},
+{
+    "category": "Motorways",
+    "question": "Who is NOT allowed on a motorway?",
+    "options": [
+        "Lorries",
+        "Learner drivers with an instructor",
+        "Pedestrians and cyclists"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pedestrians, holders of provisional motorcycle licences, riders of motorcycles under 50cc, cyclists, and horse riders are not allowed on motorways.",
+    "reference": "Highway Code: Rule 253",
+    "link": "https://www.gov.uk/guidance/the-highway-code/motorways-253-to-273"
+},
+{
+    "category": "Motorways",
+    "question": "What should you do if you miss your exit on a motorway?",
+    "options": [
+        "Reverse on the hard shoulder",
+        "Make a U-turn",
+        "Carry on to the next exit"
+    ],
+    "correctIndex": 2,
+    "explanation": "Never reverse or turn around on a motorway. Carry on to the next exit.",
+    "reference": "Highway Code: Rule 272",
+    "link": "https://www.gov.uk/guidance/the-highway-code/motorways-253-to-273"
+},
+{
     "category": "Traffic Lights",
     "question": "What does an amber traffic light mean?",
     "options": [
@@ -35,6 +126,45 @@
     ],
     "correctIndex": 1,
     "explanation": "Amber means 'Stop' at the stop line. You may go on only if the amber appears after you have crossed the stop line or are so close to it that to pull up might cause an accident.",
+    "reference": "Highway Code: Light Signals",
+    "link": "https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic"
+},
+{
+    "category": "Traffic Lights",
+    "question": "What does a flashing amber light at a pelican crossing mean?",
+    "options": [
+        "Stop immediately",
+        "Give way to pedestrians",
+        "Go, pedestrians must wait"
+    ],
+    "correctIndex": 1,
+    "explanation": "Flashing amber means you must give way to pedestrians already on the crossing. If it is clear, you may proceed.",
+    "reference": "Highway Code: Rule 196",
+    "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+},
+{
+    "category": "Traffic Lights",
+    "question": "What does a green arrow filter light mean?",
+    "options": [
+        "You may proceed in the direction shown",
+        "Wait for the main green light",
+        "Stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "A green arrow means you may move in the direction shown by the arrow, regardless of other lights.",
+    "reference": "Highway Code: Light Signals",
+    "link": "https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic"
+},
+{
+    "category": "Traffic Lights",
+    "question": "Red and amber lights showing together mean?",
+    "options": [
+        "Go if clear",
+        "Prepare to go",
+        "Stop"
+    ],
+    "correctIndex": 2,
+    "explanation": "Red and amber together mean 'Stop'. Do not pass the stop line until the green light shows.",
     "reference": "Highway Code: Light Signals",
     "link": "https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic"
 },
@@ -52,6 +182,32 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/waiting-and-parking-238-to-252"
 },
 {
+    "category": "Stopping",
+    "question": "Is parking on the pavement legal?",
+    "options": [
+        "Yes, always",
+        "No, unless signs permit it",
+        "Only on Sundays"
+    ],
+    "correctIndex": 1,
+    "explanation": "You must not park partially or wholly on the pavement in London or Scotland, and should not do so elsewhere unless signs permit it.",
+    "reference": "Highway Code: Rule 244",
+    "link": "https://www.gov.uk/guidance/the-highway-code/waiting-and-parking-238-to-252"
+},
+{
+    "category": "Stopping",
+    "question": "How close to a junction can you park?",
+    "options": [
+        "5 metres",
+        "10 metres",
+        "20 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "Do not park opposite or within 10 metres (32 feet) of a junction, except in an authorised parking space.",
+    "reference": "Highway Code: Rule 243",
+    "link": "https://www.gov.uk/guidance/the-highway-code/waiting-and-parking-238-to-252"
+},
+{
     "category": "Road Users",
     "question": "Which vehicle has priority at an unmarked crossroads?",
     "options": [
@@ -63,6 +219,45 @@
     "explanation": "No one has priority at an unmarked crossroads. You should proceed with caution.",
     "reference": "Highway Code: Rule 146",
     "link": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"
+},
+{
+    "category": "Road Users",
+    "question": "How should you overtake a horse rider?",
+    "options": [
+        "Rev your engine",
+        "Pass wide and slow",
+        "Honk to warn them"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pass wide and slow. Look out for signals from the rider and heed them.",
+    "reference": "Highway Code: Rule 215",
+    "link": "https://www.gov.uk/guidance/the-highway-code/road-users-requiring-extra-care-204-to-225"
+},
+{
+    "category": "Road Users",
+    "question": "You are turning left. A cyclist is coming up on your left. What should you do?",
+    "options": [
+        "Speed up and turn",
+        "Wait for the cyclist to pass",
+        "Wave them through"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wait for the cyclist to pass. Do not cut across them.",
+    "reference": "Highway Code: Rule 182",
+    "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+},
+{
+    "category": "Road Users",
+    "question": "You are driving and see a pedestrian with a white stick and red band. What does this indicate?",
+    "options": [
+        "The pedestrian is deaf",
+        "The pedestrian is blind",
+        "The pedestrian has mobility issues"
+    ],
+    "correctIndex": 1,
+    "explanation": "A white stick with a red band indicates that the pedestrian is blind or partially sighted.",
+    "reference": "Highway Code: Rule 191",
+    "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
 },
 {
     "category": "Documents",
@@ -78,6 +273,18 @@
     "link": "https://www.gov.uk/vehicle-insurance/driving-without-insurance"
 },
 {
+    "category": "Documents",
+    "question": "When does an MOT certificate normally expire?",
+    "options": [
+        "After 6 months",
+        "After 12 months",
+        "After 3 years"],
+    "correctIndex": 1,
+    "explanation": "An MOT certificate is valid for 12 months from the date of issue.",
+    "reference": "GOV.UK: Getting an MOT",
+    "link": "https://www.gov.uk/getting-an-mot"
+},
+{
     "category": "Incidents",
     "question": "What is the first thing you should do if your vehicle breaks down on a motorway?",
     "options": [
@@ -88,6 +295,32 @@
     "correctIndex": 2,
     "explanation": "Get your vehicle off the carriageway onto the hard shoulder and switch on hazard warning lights. Do not use a warning triangle on a motorway.",
     "reference": "Highway Code: Rule 274",
+    "link": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287"
+},
+{
+    "category": "Incidents",
+    "question": "If you are involved in a collision, what must you NOT do?",
+    "options": [
+        "Stop",
+        "Drive away immediately",
+        "Exchange details"
+    ],
+    "correctIndex": 1,
+    "explanation": "You must stop if you are involved in a collision which causes damage or injury. Leaving the scene is an offence.",
+    "reference": "Highway Code: Rule 286",
+    "link": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287"
+},
+{
+    "category": "Incidents",
+    "question": "What should you do if you see an obstruction on the motorway?",
+    "options": [
+        "Stop and remove it",
+        "Swerve around it",
+        "Use an emergency telephone to report it"
+    ],
+    "correctIndex": 2,
+    "explanation": "Do not attempt to remove it yourself. Use an emergency telephone to report it to the authorities.",
+    "reference": "Highway Code: Rule 283",
     "link": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287"
 },
 {
@@ -104,6 +337,58 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
 },
 {
+    "category": "Vehicle",
+    "question": "How often should you check your tyre pressures?",
+    "options": [
+        "Once a year",
+        "Every week",
+        "Before every long journey"
+    ],
+    "correctIndex": 1,
+    "explanation": "Check your tyre pressures at least once a week and before any long journey.",
+    "reference": "Highway Code: Vehicle Maintenance",
+    "link": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+},
+{
+    "category": "Vehicle",
+    "question": "What happens if your brake fluid level falls below the 'low' mark?",
+    "options": [
+        "Nothing",
+        "Your brakes may fail",
+        "The engine will stop"
+    ],
+    "correctIndex": 1,
+    "explanation": "Low brake fluid can lead to brake failure. It may also indicate a leak.",
+    "reference": "Highway Code: Vehicle Maintenance",
+    "link": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+},
+{
+    "category": "Vehicle",
+    "question": "When should you use your horn?",
+    "options": [
+        "When the driver ahead is stopped at a green light",
+        "To warn others of your presence",
+        "When you are angry at another driver"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use your horn only while your vehicle is moving and you need to warn other road users of your presence.",
+    "reference": "Highway Code: Rule 112",
+    "link": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"
+},
+{
+    "category": "Vehicle",
+    "question": "Who is responsible for ensuring passengers under 14 wear a seatbelt?",
+    "options": [
+        "The passenger",
+        "The driver",
+        "The car owner"
+    ],
+    "correctIndex": 1,
+    "explanation": "The driver is responsible for ensuring that any passenger under 14 years old wears a seatbelt or child restraint.",
+    "reference": "Highway Code: Rule 99",
+    "link": "https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102"
+},
+{
     "category": "Road Works",
     "question": "What does a sign with a yellow background typically indicate?",
     "options": [
@@ -117,6 +402,19 @@
     "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
 },
 {
+    "category": "Road Works",
+    "question": "What is the speed limit in road works if there are no signs?",
+    "options": [
+        "30 mph",
+        "The normal speed limit for that road",
+        "50 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unless there are specific temporary speed limit signs, the normal speed limit applies. However, you should drive with extra caution.",
+    "reference": "Highway Code: Rule 288",
+    "link": "https://www.gov.uk/guidance/the-highway-code/road-works-level-crossings-and-tramways-288-to-307"
+},
+{
     "category": "Pedestrians",
     "question": "What do zig-zag lines at a pedestrian crossing mean?",
     "options": [
@@ -127,6 +425,32 @@
     "correctIndex": 0,
     "explanation": "You must not park on them or overtake the leading vehicle when approaching the crossing.",
     "reference": "Highway Code: Rule 191",
+    "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+},
+{
+    "category": "Pedestrians",
+    "question": "At a pelican crossing, what does a flashing green man mean to pedestrians?",
+    "options": [
+        "Run across",
+        "Do not start to cross",
+        "It is safe to cross"
+    ],
+    "correctIndex": 1,
+    "explanation": "If the green man begins to flash, pedestrians should not start to cross. If they are already crossing, they should continue.",
+    "reference": "Highway Code: Rule 22",
+    "link": "https://www.gov.uk/guidance/the-highway-code/rules-for-pedestrians-1-to-35"
+},
+{
+    "category": "Pedestrians",
+    "question": "Who has priority if you are turning into a side road and a pedestrian is crossing?",
+    "options": [
+        "You (the driver)",
+        "The pedestrian",
+        "Whoever is gets to the junction first"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pedestrians crossing the road into which you are turning have priority.",
+    "reference": "Highway Code: Rule 170",
     "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
 }
 ]
