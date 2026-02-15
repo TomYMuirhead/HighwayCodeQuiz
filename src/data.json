@@ -1,0 +1,132 @@
+[
+{
+    "category": "Traffic Signs",
+    "question": "What does a circular sign with a red border indicate?",
+    "options": [
+        "Information",
+        "An order or prohibition",
+        "A warning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Circular signs with red borders give orders. You must follow them.",
+    "reference": "Highway Code: Traffic Signs",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
+    "category": "Motorways",
+    "question": "What is the national speed limit for cars on a motorway?",
+    "options": [
+        "60 mph",
+        "70 mph",
+        "80 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "The national speed limit for cars and motorcycles on a motorway is 70 mph.",
+    "reference": "Highway Code: Rule 261",
+    "link": "https://www.gov.uk/guidance/the-highway-code/motorways-253-to-273"
+},
+{
+    "category": "Traffic Lights",
+    "question": "What does an amber traffic light mean?",
+    "options": [
+        "Go if the way is clear",
+        "Stop unless it is unsafe to do so",
+        "Prepare to go"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amber means 'Stop' at the stop line. You may go on only if the amber appears after you have crossed the stop line or are so close to it that to pull up might cause an accident.",
+    "reference": "Highway Code: Light Signals",
+    "link": "https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic"
+},
+{
+    "category": "Stopping",
+    "question": "When are you allowed to stop on a Clearway?",
+    "options": [
+        "Never",
+        "To set down passengers",
+        "Only in an emergency"
+    ],
+    "correctIndex": 0,
+    "explanation": "You must not stop on a clearway, not even to pick up or set down passengers.",
+    "reference": "Highway Code: Rule 240",
+    "link": "https://www.gov.uk/guidance/the-highway-code/waiting-and-parking-238-to-252"
+},
+{
+    "category": "Road Users",
+    "question": "Which vehicle has priority at an unmarked crossroads?",
+    "options": [
+        "The vehicle on the right",
+        "The larger vehicle",
+        "Neither vehicle"
+    ],
+    "correctIndex": 2,
+    "explanation": "No one has priority at an unmarked crossroads. You should proceed with caution.",
+    "reference": "Highway Code: Rule 146",
+    "link": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"
+},
+{
+    "category": "Documents",
+    "question": "When must you produce your insurance certificate if requested by a police officer?",
+    "options": [
+        "Within 7 days",
+        "Within 24 hours",
+        "Immediately"
+    ],
+    "correctIndex": 0,
+    "explanation": "If you cannot produce your documents at the time, you must take them to a police station within 7 days.",
+    "reference": "GOV.UK: Vehicle Insurance",
+    "link": "https://www.gov.uk/vehicle-insurance/driving-without-insurance"
+},
+{
+    "category": "Incidents",
+    "question": "What is the first thing you should do if your vehicle breaks down on a motorway?",
+    "options": [
+        "Try to fix it quickly",
+        "Put out a warning triangle",
+        "Turn on hazard lights and get to the hard shoulder"
+    ],
+    "correctIndex": 2,
+    "explanation": "Get your vehicle off the carriageway onto the hard shoulder and switch on hazard warning lights. Do not use a warning triangle on a motorway.",
+    "reference": "Highway Code: Rule 274",
+    "link": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287"
+},
+{
+    "category": "Vehicle",
+    "question": "What is the legal minimum tread depth for car tyres?",
+    "options": [
+        "1.0 mm",
+        "1.6 mm",
+        "2.0 mm"
+    ],
+    "correctIndex": 1,
+    "explanation": "The legal minimum tread depth for cars is 1.6mm across the central three-quarters of the breadth of the tread and around the entire circumference.",
+    "reference": "Highway Code: Vehicle Maintenance",
+    "link": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+},
+{
+    "category": "Road Works",
+    "question": "What does a sign with a yellow background typically indicate?",
+    "options": [
+        "Tourist information",
+        "Temporary road works or diversion",
+        "A primary route"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow signs usually indicate temporary hazards, road works, or diversion routes.",
+    "reference": "Traffic Signs: Road Works",
+    "link": "https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+},
+{
+    "category": "Pedestrians",
+    "question": "What do zig-zag lines at a pedestrian crossing mean?",
+    "options": [
+        "No parking or overtaking",
+        "Pedestrians have priority",
+        "Speed bump ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "You must not park on them or overtake the leading vehicle when approaching the crossing.",
+    "reference": "Highway Code: Rule 191",
+    "link": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+}
+]
